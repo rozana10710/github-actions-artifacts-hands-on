@@ -33,4 +33,4 @@ jobs:
           path: ./artifacts
 
       - name: Show context
-        run: cat ./artifacts/hello.txt
+        run: cat ./artifacts/hello-artifact/hello.txt
